@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class MyApplication  implements Processor, CourtCreationProcessor {    // Implementing the processor, we need to display the athlete
+public class MyApplication  implements Processor{    // Implementing the processor, we need to display the athlete
    //constructor injection
     private AthleteCreation athlete;
 
