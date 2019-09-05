@@ -16,7 +16,7 @@ public class MyApplication  implements Processor{    // Implementing the process
     public void displayAthlete() {
         System.out.println("******************");
         athlete.displayAthlete();
-        System.out.println("******************");
+
 
 
     }
@@ -24,5 +24,6 @@ public class MyApplication  implements Processor{    // Implementing the process
     @Override
     public void displayCourt() {
       athlete.displayCourt();
+      System.out.println("******************");
     }
 }
