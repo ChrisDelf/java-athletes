@@ -4,6 +4,6 @@ public class BaseballAthleteCreationInjector implements AthleteCreationInjector{
 
     @Override
     public Processor getProcess() {
-        return new MyApplication(new TrackAthleteImpl()); // this creates an new object
+        return new MyApplication(new BaseballAthleteImpl()); // this creates an new object
     }
 }

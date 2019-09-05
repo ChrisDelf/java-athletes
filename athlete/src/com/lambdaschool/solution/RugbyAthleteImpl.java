@@ -3,6 +3,6 @@ package com.lambdaschool.solution;
 public class RugbyAthleteImpl implements AthleteCreation{
     @Override
     public void displayAthlete() {
-        System.out.println("Track Runner");
+        System.out.println("Rugby Player");
     }
 }

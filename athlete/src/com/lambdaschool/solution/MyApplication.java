@@ -14,6 +14,7 @@ public class MyApplication  implements Processor {    // Implementing the proces
     public void displayAthlete() {
         System.out.println("******************");
         athlete.displayAthlete();
+        System.out.println("******************");
 
     }
 }
