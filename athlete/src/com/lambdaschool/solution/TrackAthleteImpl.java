@@ -5,4 +5,9 @@ public class TrackAthleteImpl implements AthleteCreation{
     public void displayAthlete() {
         System.out.println("Track Runner");
     }
+
+    @Override
+    public void displayCourt() {
+        System.out.println("Track Ring");
+    }
 }

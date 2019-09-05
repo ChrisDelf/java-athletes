@@ -6,4 +6,5 @@ public class BaseballAthleteCreationInjector implements AthleteCreationInjector{
     public Processor getProcess() {
         return new MyApplication(new BaseballAthleteImpl()); // this creates an new object
     }
+
 }

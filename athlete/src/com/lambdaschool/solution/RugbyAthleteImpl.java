@@ -5,4 +5,9 @@ public class RugbyAthleteImpl implements AthleteCreation{
     public void displayAthlete() {
         System.out.println("Rugby Player");
     }
+
+    @Override
+    public void displayCourt() {
+        System.out.println("Field");
+    }
 }
