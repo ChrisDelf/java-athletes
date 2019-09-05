@@ -1,5 +1,5 @@
-package com.lambdaschool.solution;
-
-public interface CourtCreationProcessor {
-  void displayCourt();
-}
+//package com.lambdaschool.solution;
+//
+//public interface CourtCreationProcessor {
+//  void displayCourt();
+//}
